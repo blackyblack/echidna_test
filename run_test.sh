@@ -1,0 +1,1 @@
+echidna-test EchidnaToken.sol --contract EchidnaToken --config EchidnaToken.config.yml
