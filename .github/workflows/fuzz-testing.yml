@@ -51,4 +51,4 @@ jobs:
           sudo chmod +x /usr/bin/echidna-test
 
       - name: Run ${{ matrix.testName }}
-        run: echidna-test . --contract ${{ matrix.testName }} --config ${{ matrix.testName }}.config.yml
+        run: echidna-test ${{ matrix.testName }}.sol --contract ${{ matrix.testName }} --config ${{ matrix.testName }}.config.yml
